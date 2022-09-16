@@ -20,7 +20,7 @@ pool.query("SELECT * FROM profile ORDER BY id ASC", (error, results) => {
 
 // add a new user profile.
 const name = "Hello";
-const email = "hello@robnugen.com";
+const email = "hello@example.com";
 
 pool.query(
  "INSERT INTO profile (name, email) VALUES ($1, $2)",
